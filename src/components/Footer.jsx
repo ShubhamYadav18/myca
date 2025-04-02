@@ -11,11 +11,7 @@ const Footer = () => {
     <footer data-scroll data-scroll-section data-scroll-seed="0"
      className="bg-[#F1F1F1] text-black font-['Neue_Montreal'] leading-none">
       <div className="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
-        <a href="#">
-          <img className="w-auto h-7" src="https://merakiui.com/images/full-logo.svg" alt="Logo" />
-        </a>
-
-        <p className="text-sm">&copy; Copyright 2021. All Rights Reserved.</p>
+        <p className="text-sm">&copy; Copyright 2025. All Rights Reserved.</p>
 
         <div className="flex space-x-4">
           {socialLinks.map(({ href, ariaLabel, icon }) => (

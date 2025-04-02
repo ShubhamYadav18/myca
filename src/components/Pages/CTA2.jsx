@@ -25,11 +25,11 @@ const CTA2 = () => {
   }, []);
 
   return (
-    <section className="ezy__cta2 light py-14 w-full h-screen bg-[#F1F1F1] text-black font-[Neue_Montreal]">
+    <section className="ezy__cta2 light py-14 w-full h-screen bg-[#F4F2EE] text-black font-[Neue_Montreal]">
       <div className="container px-4">
         <div className="">
           <div className="grid grid-cols-12">
-            <div className="col-span-12 m-20 bg-white rounded-3xl">
+            <div className="col-span-12 m-20 bg-[#FFFFFF] rounded-3xl">
               <div className="py-12 px-6 m-20 text-center">
                 <h2 className="text-6xl tracking-tight uppercase leading-none mb-6">
                    Choose your preference

@@ -40,9 +40,13 @@ function Landing() {
           >         <GoArrowUpRight />
                     </button> */}
 
-                    <Link to="/trpage" className="w-8 h-8 flex items-center justify-center border-[1px] border-zinc-300 rounded-full hover:bg-gray-200 transition">
-                    <GoArrowUpRight />
-                    </Link>
+                <Link
+                to="/trpage"
+                className="w-8 h-8 flex items-center justify-center border-[1px] border-zinc-300 rounded-full transition group hover:bg-[#0E71D3] hover:border-none"
+                >
+                <GoArrowUpRight className="text-black group-hover:text-white transition" />
+                </Link>
+
 
                 </div>
         </div>

@@ -25,7 +25,7 @@ function Contact() {
 
   return (
     <section data-scroll data-scroll-section data-scroll-speed="0"
-    className="-mt-[230px] bg-[#1F2937] rounded-tl-3xl rounded-tr-3xl text-white font-['Neue_Montreal'] leading-none">
+    className="-mt-[220px] bg-[#0A66C2] rounded-tl-3xl rounded-tr-3xl text-white font-['Neue_Montreal'] leading-none">
       <div className="container px-6 py-12 mx-auto">
         <div className="text-center">
           <p className="font-medium">Contact us</p>

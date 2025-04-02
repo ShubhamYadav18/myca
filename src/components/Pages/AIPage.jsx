@@ -41,18 +41,24 @@ function AIPage({ userId, onReceiveRecommendations }) {
   };
 
   return (
-    <div className="ai-container">
-      <h2 className="ai-title">AI Career Assistance</h2>
+    <div className="ai-container p-40 flex flex-col items-center justify-center min-h-screen text-black">
+      <div>
       <textarea
-        className="ai-textarea"
-        rows="4"
-        placeholder="Describe your skills, interests, or goals..."
+        className="ai-textarea resize-none border border-gray-300 rounded-xl p-4 w-[800px] h-[400px] text-lg 
+             bg-white/10 backdrop-blur-lg text-white placeholder-black 
+             shadow-lg transition-all duration-300 ease-in-out 
+             focus:outline-none focus:ring-2 focus:ring-blue-300 focus:border-blue-400"
+        rows="15"
+        placeholder="Tell about yourself in 50 words..."
         value={inputText}
         onChange={(e) => setInputText(e.target.value)}
       />
+      </div>
+      <div>
       <button className="ai-button" onClick={handleSave} disabled={loading}>
         {loading ? "Saving..." : "Get Recommendations"}
       </button>
+      </div>
     </div>
   );
 }
