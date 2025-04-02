@@ -36,7 +36,9 @@ const CTA2 = () => {
                 </h2>
 
                 <div className="p-10 uppercase">
-                  <Link to="/" className="text-md border hover:bg-[#F1F1F1] px-7 py-2 rounded-full">
+                  <Link 
+                  to={userId ? `/aipage?userId=${userId}` : "/aipage"} 
+                  className="text-md border hover:bg-[#F1F1F1] px-7 py-2 rounded-full">
                     Without Questions
                   </Link>
 

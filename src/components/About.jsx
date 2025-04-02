@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed=".5" className='w-full bg-[#E6F0FB] rounded-3xl text-black -mt-60'>
+    <div data-scroll data-scroll-section data-scroll-speed=".5" className='w-full bg-[#FFFFFF] rounded-3xl text-black -mt-60'>
         <h1 className='pr-20 pl-20 pt-20 font-["Neue_Montreal"] text-[3vw] leading-[3.8vw] tracking-tight' >Welcome to the future of
           career exploration. We understand that your career journey is deeply personal and constantly evolving. 
           That's why we've developed an AI-driven platform that goes beyond traditional assessments.

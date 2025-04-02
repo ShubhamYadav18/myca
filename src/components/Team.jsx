@@ -50,7 +50,7 @@ const teamMembers = [
 
 const Team = () => {
   return (
-    <section data-scroll data-scroll-section data-scroll-speed=".8" className="-mt-80 h-screen bg-zinc-300 rounded-tl-3xl rounded-tr-3xl py-20 text-black font-['Neue_Montreal'] leading-none">
+    <section data-scroll data-scroll-section data-scroll-speed=".8" className="-mt-80 h-screen bg-[#FFFFFF] rounded-tl-3xl rounded-tr-3xl py-20 text-black font-['Neue_Montreal'] leading-none">
       <div className="container px-6 mx-auto">
         <h1 className="text-6xl text-center capitalize tracking-tight">
           Our Team
@@ -62,7 +62,7 @@ const Team = () => {
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-zinc-400 dark:border-gray-700 dark:hover:border-transparent"
+              className="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-black dark:border-gray-700 dark:hover:border-transparent"
             >
               <img
                 className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"

@@ -5,7 +5,7 @@ const GS = () => {
     <section data-scroll data-scroll-section data-scroll-speed="0"
 			className="light font-['Neue_Montreal'] tracking-tight text-white py-40 rounded-tl-3xl rounded-tr-3xl -mt-80"
 			style={{
-				background: "#1F2937",
+				background: "#0A66C2",
 				backgroundSize: "cover"
 			}}
 		>
@@ -15,10 +15,10 @@ const GS = () => {
 				</h2>
 				 
 				<div className="items-center -mt-10 mb-20">
-					<button className="uppercase gap-10 mx-2 px-7 py-2 border border-[#3A4C60] hover:bg-[#3A4C60] mt-10 rounded-full">
+					<button className="uppercase gap-10 mx-2 px-7 py-2 border border-[#0E71D3] hover:bg-[#0E71D3] mt-10 rounded-full">
 						Without Questions
 					</button>
-					<button className="uppercase gap-10 mx-2 px-7 py-2 border border-[#3A4C60] hover:bg-[#3A4C60] mt-10 rounded-full">
+					<button className="uppercase gap-10 mx-2 px-7 py-2 border border-[#0E71D3] hover:bg-[#0E71D3] mt-10 rounded-full">
 						With Questions
 					</button>
 				</div>

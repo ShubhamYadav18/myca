@@ -10,7 +10,7 @@ function Landing() {
     // const navigate = useNavigate();
 
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="-.3" className='w-full text-black h-screen bg-[#F1F1F1] pt-1'>
+    <div data-scroll data-scroll-section data-scroll-speed="-.3" className='w-full text-black h-screen bg-[#F4F2EE] pt-1'>
         <div className='textstructure mt-40 px-20'>
             {["Unlock", " AI- Powered", "Career Insights"].map((item, index)=> {
                 return <div className='masker' >
@@ -21,7 +21,7 @@ function Landing() {
                         </div>
             })}
         </div>
-        <div className="border-t-[1px] border-[#B1B1B1] font-[Neue_Montreal] mt-20 flex justify-between items-center py-5 px-20">
+        <div className="border-t-[1px] border-zinc-300 font-[Neue_Montreal] mt-20 flex justify-between items-center py-5 px-20">
             {[
                 "For students and experienced professionals.", 
                 "From initial career exploration to advanced career transitions.",
@@ -31,7 +31,7 @@ function Landing() {
                 
                 <div className="start flex items-center gap-5">
                     <Tooltip text="'Arrow' for returning users. 'Get Started' for new users.">
-                    <div className="px-5 py-1 border-[1px] border-[#B1B1B1] rounded-full text-md uppercase">Quick Recommendations</div>
+                    <div className="px-5 py-1 border-[1px] border-zinc-300 rounded-full text-md uppercase">Quick Recommendations</div>
                     </Tooltip>
                     
                     {/* <button 
@@ -40,14 +40,14 @@ function Landing() {
           >         <GoArrowUpRight />
                     </button> */}
 
-                    <Link to="/trpage" className="w-8 h-8 flex items-center justify-center border-[1px] border-[#B1B1B1] rounded-full hover:bg-gray-200 transition">
+                    <Link to="/trpage" className="w-8 h-8 flex items-center justify-center border-[1px] border-zinc-300 rounded-full hover:bg-gray-200 transition">
                     <GoArrowUpRight />
                     </Link>
 
                 </div>
         </div>
 
-        <div className='mt-8 flex justify-center text-md text-zinc-500 hover:text-zinc-400 font-light tracking-tight leading-none gap-2'>Scroll Down <IoIosArrowDown /> </div>
+        <div className='mt-8 flex justify-center text-md text-zinc-400 font-light tracking-tight leading-none gap-2'>Scroll Down <IoIosArrowDown /> </div>
     </div>
   )
 }

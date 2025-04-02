@@ -36,7 +36,7 @@ function FAQ() {
   };
 
   return (
-    <section data-scroll data-scroll-section data-scroll-speed="1" className="-mt-[350px] bg-[#F1F1F1] rounded-tl-3xl rounded-tr-3xl py-10 text-black font-['Neue_Montreal'] leading-none">
+    <section data-scroll data-scroll-section data-scroll-speed="1" className="-mt-[350px] bg-[#F4F2EE] rounded-tl-3xl rounded-tr-3xl py-10 text-black font-['Neue_Montreal'] leading-none">
       <div className="container max-w-4xl px-6 mx-auto">
         <h1 className="text-center text-6xl text-center capitalize tracking-tight">
           Frequently Asked Questions
@@ -45,7 +45,7 @@ function FAQ() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="border-[0.8px] border-gray-100 rounded-lg"
+              className="border-[0.8px] border-zinc-300 rounded-lg"
             >
               <button
                 onClick={() => toggleFAQ(index)}

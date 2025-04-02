@@ -21,6 +21,7 @@ import TRPage from './components/Pages/TRPage';
 import PTPage from './components/Pages/PTPage';
 import CIPage from './components/Pages/CIPage';
 import EPage from './components/Pages/Epage';
+import AIPage from './components/Pages/AIPage';
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -81,7 +82,7 @@ function AnimatedRoutes() {
           <Route path="/ptpage" element={<MotionPage><PTPage /></MotionPage>} />
           <Route path="/cipage" element={<MotionPage><CIPage /></MotionPage>} />
           <Route path="/epage" element={<MotionPage><EPage /></MotionPage>} />
-          {/* <Route path="/aipage" element={<MotionPage><AIPage/></MotionPage>} /> */}
+          <Route path="/aipage" element={<MotionPage><AIPage/></MotionPage>} />
         </Routes>
       </div>
     </AnimatePresence>
