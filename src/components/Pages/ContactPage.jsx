@@ -5,17 +5,17 @@ import PropTypes from "prop-types";
 const contactInfoList = [
   {
     icon: <FiMail className="text-3xl text-blue-500" />,
-    label: "email@easyfrontend.com",
+    label: "Vu2s2223020@pvppcoe.ac.in",
     href: "mailto:email@easyfrontend.com",
   },
   {
     icon: <FiPhone className="text-3xl text-blue-500" />,
-    label: "+880 1742-0****0",
+    label: "+91 9769957469",
     href: "tel:+88017420****0",
   },
   {
     icon: <FiGlobe className="text-3xl text-blue-500" />,
-    label: "easyfrontend.com",
+    label: "mycareerai.com",
     href: "https://easyfrontend.com",
   },
 ];

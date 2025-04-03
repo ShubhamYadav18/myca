@@ -7,19 +7,19 @@ function Contact() {
       icon: <HiOutlineMail className="w-6 h-6" />,
       title: "Email",
       description: "Our friendly team is here to help.",
-      contact: "hello@merakiui.com",
+      contact: "Vu2s2223017@pvppcoe.ac.in",
     },
     {
       icon: <HiOutlineLocationMarker className="w-6 h-6" />,
       title: "Office",
       description: "Come say hello at our office HQ.",
-      contact: "100 Smith Street Collingwood VIC 3066 AU",
+      contact: "Vasantdada Patil College of Engg Sion Mumbai-400028",
     },
     {
       icon: <HiOutlinePhone className="w-6 h-6" />,
       title: "Phone",
       description: "Mon-Fri from 8am to 5pm.",
-      contact: "+1 (555) 000-0000",
+      contact: "+9122 2084 0325/2084 7226",
     },
   ];
 

@@ -3,43 +3,42 @@ import { FaLinkedin, FaFacebook, FaGithub } from "react-icons/fa";
 
 const teamMembers = [
   {
-    name: "Arthur Melo",
-    role: "Design Director",
-    image:
-      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+    name: "Shubham Yadav",
+    role: "AI & ML Engineer",
+    image:"public/Photo from Shubham Yadav.jpg",
     socials: {
-      linkedin: "https://www.linkedin.com/in/arthurmelo",
-      facebook: "https://www.facebook.com/arthurmelo",
-      github: "https://github.com/arthurmelo",
+      linkedin: "http://www.linkedin.com/in/shubham-yadav18",
+      facebook: "",
+      github: "https://github.com/ShubhamYadav18",
     },
   },
   {
-    name: "Amelia Anderson",
+    name: "Prachi Bebale",
     role: "Lead Developer",
     image:
-      "https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+      "public/Prachi.jpeg",
     socials: {
-      linkedin: "https://www.linkedin.com/in/ameliaanderson",
+      linkedin: "https://www.linkedin.com/in/prachi-bebale-17a11931b/",
       facebook: "https://www.facebook.com/ameliaanderson",
-      github: "https://github.com/ameliaanderson",
+      github: "https://github.com/prak-code",
     },
   },
   {
-    name: "Olivia Wathan",
-    role: "Lead Designer",
-    image:
-      "https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-    socials: {
-      linkedin: "https://www.linkedin.com/in/oliviawathan",
-      facebook: "https://www.facebook.com/oliviawathan",
-      github: "https://github.com/oliviawathan",
-    },
-  },
-  {
-    name: "John Doe",
+    name: "Aursalan Sayed",
     role: "Full Stack Developer",
     image:
-      "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "public/Aursalan.jpeg",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/aursalan/",
+      facebook: "https://www.facebook.com/oliviawathan",
+      github: "https://github.com/aursalan/frontend",
+    },
+  },
+  {
+    name: "Sahil Surve",
+    role: "Full Stack Developer",
+    image:
+      "public/Sahil.jpeg",
     socials: {
       linkedin: "https://www.linkedin.com/in/johndoe",
       facebook: "https://www.facebook.com/johndoe",
@@ -56,7 +55,7 @@ const Team = () => {
           Our Team
         </h1>
         <p className="max-w-2xl mx-auto my-6 text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        A team of AI specialists committed to helping you make informed career decisions.
         </p>
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
           {teamMembers.map((member, index) => (

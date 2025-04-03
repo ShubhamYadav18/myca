@@ -2,31 +2,37 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "How can I pay for my appointment?",
+    question: "How does AI-powered career counseling work?",
     answer:
-      "You can pay using credit/debit card, online payment services, or insurance, depending on our accepted payment methods.",
+      "Our AI-driven system analyzes your skills, interests, and career goals to provide personalized recommendations, industry insights, and skill-building advice.",
   },
   {
-    question: "Is the cost of the appointment covered by private health insurance?",
+    question: "Is the AI career guidance accurate and reliable?",
     answer:
-      "Coverage depends on your specific health insurance plan. Please check with your provider.",
+      "Yes! Our AI model is trained on vast industry data and expert inputs to provide up-to-date career insights. However, we recommend consulting a human expert for final decisions.",
   },
   {
-    question: "Do I need a referral?",
+    question: "Do I need to pay for AI-based career counseling?",
     answer:
-      "A referral may be required depending on the type of consultation. Please check with our office for details.",
+      "We offer both free and premium career guidance plans. Premium plans include in-depth analysis, mentorship sessions, and resume-building assistance.",
   },
   {
-    question: "What are your opening hours?",
+    question: "Can the AI suggest remote or freelancing career options?",
     answer:
-      "Our clinic is open Monday to Friday from 9 AM to 5 PM. Weekend availability varies.",
+      "Yes! Our system recommends remote jobs, freelancing platforms, and side hustles based on your skills and experience level.",
   },
   {
-    question: "What can I expect at my first consultation?",
+    question: "How do I get started with AI-based career counseling?",
     answer:
-      "During your first consultation, we will discuss your medical history, concerns, and the next steps in your treatment plan.",
+      "Simply sign up, complete our career assessment quiz, and get instant AI-driven career recommendations tailored to your profile.",
   },
+  {
+    question: "Can I speak with a human career counselor?",
+    answer:
+      "Absolutely! You can book a session with one of our expert career coaches for personalized career advice.",
+  }
 ];
+
 
 function FAQ() {
   const [openIndex, setOpenIndex] = useState(null);
